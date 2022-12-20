@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>게시판 페이지</title>
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <header>
+            <h1>첫 번째 글</h1>
+        </header>
+
+        <aside>
+            <p><span>dschoi</span></p>
+            <p><a rel="me" href="mailto:test@gmail.com">test@gmail.com</a></p>
+            <p><time datetime="2022-12-21T00:00:00">2022-12-21</time></p>
+            <p>#java</p>
+        </aside>
+
+        <section>
+            <p>본문<br><br></p>
+
+            <div>
+                <form>
+                    <label for="articleComment">댓글</label>
+                    <textarea id="articleComment" placeholder="댓글 쓰기"></textarea>
+                    <button type="submit">쓰기</button>
+                </form>
+
+                <ul>
+                    <li>
+                        <div>
+                            <time><small>2022-12-21</small></time>
+                            <strong>dschoi</strong>
+                            <p>
+                                this is the test board of fastcampus
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time><small>2022-12-21</small></time>
+                            <strong>dschoi</strong>
+                            <p>
+                                this is the test board of fastcampus
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <nav>
+                <a href="#">이전 글</a>
+                <a href="#">다음 글</a>
+            </nav>
+        </section>
+
+    </main>
+
+    <footer id="footer"></footer>
+
+</body>
+</html>
