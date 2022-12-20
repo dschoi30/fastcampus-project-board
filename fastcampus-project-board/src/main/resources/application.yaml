@@ -29,8 +29,13 @@ spring:
     console:
       enabled: false
   sql.init.mode: always
+  data.rest:
+    base-path: /api
+  data:
+    rest:
+      detection-strategy: annotated
 
 ---
 
-spring:
-  config.activate.on-profile: testdb
+#spring:
+#  config.activate.on-profile: testdb
