@@ -34,6 +34,7 @@ spring:
   data:
     rest:
       detection-strategy: annotated
+  thymeleaf3.decoupled-logic: true
 
 ---
 
